@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Poppins:wght@100&display=swap');
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+.button{
+  width: 80px;
+  padding: 20px;
+  margin: 0 5px;
+  border: 2px solid #1d1616;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 2px 2px black;
+}
+button:hover{
+  background-color: grey; 
+}
+.row{
+  margin: 8px;
+}
+.row input{
+  width: 291px;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 2px;
+  border: 2px solid black;
+  box-shadow: 2px 2px black;
+  border-radius: 5px;
+}
